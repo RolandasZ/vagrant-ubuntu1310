@@ -56,3 +56,9 @@ vagrant up
 ==> default: adding to (/etc/hosts) : 192.168.63.29  projektas.dev  # VAGRANT: 40053c90115e675dc370b811eff71aca (default) / c09d612f-d144-49e6-bc0f-e7da3b7d2685
 
 boom. projektas.dev veikia.
+
+// nepamirsti kaskart isjungiant
+
+vagrant halt
+
+// priesingu atveju neisjungsit kompiuterio.
