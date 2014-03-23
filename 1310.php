@@ -16,6 +16,7 @@ sudo apt-get install virtualbox
 
 // parsisiunciam vagranta Desktope
 http://www.vagrantup.com/
+sudo chmod +x vagrant[tab] // exec
 sudo dpkg -i vagrant[tab] //  [tab] = autocomplete
 
 // vagranto versijos tikrinimas
