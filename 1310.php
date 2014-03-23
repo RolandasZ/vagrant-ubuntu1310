@@ -42,7 +42,7 @@ contact Vagrant support.
 // jei ismete sita error. terminale vesti.
 vagrant halt
 
-sudo apt-get installe nfs-kernel-server
+sudo apt-get install nfs-kernel-server
 vagrant plugin install vagrant-hostmanager
 vagrant plugin install vagrant-box-updater
 vagrant plugin install vagrant-hostsupdater
