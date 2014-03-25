@@ -12,7 +12,9 @@ sudo apt-get update
 sudo apt-get install git git-core
 
 // virtualbox, vagrant. 
-sudo apt-get install virtualbox
+//sudo apt-get install virtualbox
+// Geriau parsisiųsti iš https://www.virtualbox.org/wiki/Linux_Downloads
+// Tada sudiegiam parsiųstą failą pagal unixo versiją
 
 // parsisiunciam vagranta Desktope
 http://www.vagrantup.com/
@@ -43,9 +45,11 @@ contact Vagrant support.
 vagrant halt
 
 sudo apt-get install nfs-kernel-server
-vagrant plugin install vagrant-hostmanager
-vagrant plugin install vagrant-box-updater
-vagrant plugin install vagrant-hostsupdater
+
+//Vagranto pluginus diegti tik tuo atveju, jeigu kartojant paleidimą, gausite kokią nors klaidą. Turėtų neprašyti.
+//vagrant plugin install vagrant-hostmanager
+//vagrant plugin install vagrant-box-updater
+//vagrant plugin install vagrant-hostsupdater
 
 //bandom dar karta
 
